@@ -1,6 +1,10 @@
 $primaryColor: darkcyan;
 $secondaryColor: blue;
 
+html {
+  font-family: generalFont;
+}
+
 h1 {
   color: $primaryColor;
   text-align: center;
@@ -11,7 +15,8 @@ h1 {
     color: $secondaryColor;
     background: url("../images/einstain.png");
     text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
     height: 300px;
   }
 }

@@ -1,4 +1,5 @@
 import "./styles/index.scss";
+import "bootstrap";
 
 const userStack = {
   language: "JavaScript",
