@@ -1,0 +1,17 @@
+$primaryColor: darkcyan;
+$secondaryColor: blue;
+
+h1 {
+  color: $primaryColor;
+  text-align: center;
+}
+
+.container {
+  &-subtitle {
+    color: $secondaryColor;
+    background: url("../images/einstain.png");
+    text-align: center;
+    display: block;
+    height: 300px;
+  }
+}
